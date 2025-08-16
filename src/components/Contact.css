@@ -1,0 +1,18 @@
+.contact-section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.contact-info {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #2a2a2a;
+  padding: 2rem;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}

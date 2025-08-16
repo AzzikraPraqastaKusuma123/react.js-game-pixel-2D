@@ -1,0 +1,57 @@
+/* Import font pixel */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  --pixel-font: 'Press Start 2P', cursive;
+  --pixel-border-width: 4px;
+  --pixel-border-color: #555;
+  --pixel-bg-color: #333;
+  --pixel-text-color: #eee;
+  --pixel-accent-color: #00ff00;
+  --pixel-secondary-color: #ff00ff;
+}
+
+body {
+  margin: 0;
+  background-color: var(--pixel-bg-color);
+  color: var(--pixel-text-color);
+  font-family: var(--pixel-font);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.pixel-game-portfolio {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-screen {
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: var(--pixel-border-width) solid var(--pixel-border-color);
+  background-color: #222;
+}
+
+.header-title {
+  font-size: 1.5rem;
+  color: var(--pixel-accent-color);
+}
+
+.game-menu .menu-item {
+  color: var(--pixel-text-color);
+  text-decoration: none;
+  margin-left: 1.5rem;
+  transition: color 0.3s;
+}
+
+.game-menu .menu-item:hover {
+  color: var(--pixel-accent-color);
+}

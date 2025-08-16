@@ -1,0 +1,27 @@
+.skills-section {
+  padding: 4rem 2rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #2a2a2a;
+  padding: 1rem;
+}
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.5rem;
+  image-rendering: pixelated; /* Efek pixel art */
+}
